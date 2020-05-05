@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin-top: 50px;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  padding-top: 40px;
+}
+
+div {
+  background-color: white;
+}
+
+p {
+  color: #40514E;
+}
+
+.trade-mark {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 175px;
+}
+
+.middle-container {
+  padding-bottom: 80px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 50px;
+  line-height: 2;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile-image {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.resize1 {
+  max-width: 25%;
+  max-height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.resize {
+  max-width: 25%;
+  max-height: 25%;
+  float: right;
+}
+
+.profile {
+  width: 40%;
+  margin: auto auto 100px auto;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 10px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.coffee {
+  margin-left: 30px;
+  padding-top: 40px;
+}
+
+.coffee-row {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.dotted {
+  border-style: dotted solid;
+  border-color: #EAF6F6;
+  border-width: 0 0 8px 0;
+  width: 5%;
+}
+
+.footer-link {
+  padding: 30px;
+  color: #11999E;
+  text-decoration: none;
+}
+
+.btn {
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  color: white;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 20px;
+  background-color: #66BFBF;
+  text-shadow: 1px 1px 10px #EAF6F6;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #10A9A1;
+  border: solid #10A9A1 1px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  text-decoration: none;
+}
